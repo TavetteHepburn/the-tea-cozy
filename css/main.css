@@ -1,0 +1,83 @@
+/* UNIVERSAL STYLES */
+
+body {
+  font-family: 'Helvetica',sans-serif;
+  font-size: 22px;
+  color: #fff5ee;
+  opacity: 0.9;
+  background-color: black;
+  text-align: center;
+}
+
+/* HEADER */
+
+
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 50px;
+  padding: 10px;
+}
+
+nav ul {
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+header {
+  overflow: hidden;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  
+}
+
+.hero-block {
+  clear:both;
+  background-image: url('../img/img-mission-background.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px; 
+}
+
+.hero-block h2 {
+  position:relative;
+  top: 248px;
+  background-color: black;
+  padding:10px;
+}
+
+.hero-block h4 {
+  position: relative;
+  top: 218px;
+  background-color: black;
+  padding: 10px;
+}
+
+/* GALLERY */
+
+.tea-of-month {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.tea-gallery {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-photo img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+
