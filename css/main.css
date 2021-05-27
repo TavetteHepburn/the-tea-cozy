@@ -70,6 +70,7 @@ header {
 
 .tea-gallery {
   display:flex;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -80,4 +81,37 @@ header {
   padding: 10px;
 }
 
+.locations {
+  background-image: url('../img/img-locations-background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
 
+.locations-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.locations h2 {
+  padding-top: 80px;
+}
+
+.locations-block {
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
+}
+
+.locations-block p {
+  line-height: 65px;
+}
+
+/* FOOTER */
+
+footer {
+  min-height: 200px;
+}
